@@ -27,8 +27,8 @@ def offAll():
 
 def foo():
     i=0
-    times = random.randint(1,3)
-    while i < int(times):
+    color_num = random.randint(1,3)
+    while i < int(color_num):
         color = random.choice('rgb')
         if color == 'r':
             GPIO.output(redPin, GPIO.HIGH)
